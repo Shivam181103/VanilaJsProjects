@@ -1,0 +1,46 @@
+
+*
+{
+    margin: 0%;
+}
+
+body
+{
+     
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    background-color: antiquewhite;
+}
+
+.count
+{
+    padding: 30px ;
+}
+
+h1
+{
+    font-size: 50px;
+    color: black;
+}
+
+.btn
+{
+  padding: 7px 25px;
+  border-radius: 10px;
+  border-color:  black;
+  border-style: solid;
+    
+}
+.btn:hover
+{
+    background-color: blue;
+    cursor: pointer;
+}
+.btn:active {
+    transform: scale(0.98);
+   
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+ }
